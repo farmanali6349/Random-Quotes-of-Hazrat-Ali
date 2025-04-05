@@ -1,204 +1,202 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Playfair Display', serif;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display", serif;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #000;
+  background-color: #000;
 }
 
 .container {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 100px;
-    width: 100%;
-    background-color: #1c1c1c;
-    /* Set the background color of the navbar */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    /* Add a subtle shadow */
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.15));
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  width: 100%;
+  background-color: #1c1c1c;
+  /* Set the background color of the navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  /* Add a subtle shadow */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05),
+    rgba(0, 0, 0, 0.15)
+  );
 }
 
-
 #navbar h1 {
-    color: #fff;
-    font-weight: 800;
-    font-size: 1.9em;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.9em;
 }
 
 #navbar h1 span {
-    color: #FFA400;
+  color: #ffa400;
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search input {
-    margin-right: 10px;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-size: 16px;
-    width: 120px;
-    color: #fff;
-    font-weight: 200;
+  margin-right: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  width: 120px;
+  color: #fff;
+  font-weight: 200;
 }
 
 .search input:focus {
-    border-color: #FFA400;
-    background: transparent;
+  border-color: #ffa400;
+  background: transparent;
 }
 
 .search img {
-    width: 23px;
-    cursor: pointer;
+  width: 23px;
+  cursor: pointer;
 }
 
 #content {
-    padding: 10px 100px;
-    width: 80%;
-    margin-top: 30px;
+  padding: 10px 100px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .name {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .name img {
-    width: 100px;
+  width: 100px;
 }
 
 .name h2 {
-    margin-left: 15px;
-    text-transform: capitalize;
-    font-size: 1.8em;
+  margin-left: 15px;
+  text-transform: capitalize;
+  font-size: 1.8em;
 }
 
 .quote {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .quote h2 {
-    font-size: 2.3em;
-    word-spacing: 5px;
-    letter-spacing: 1px;
-    text-transform: capitalize;
+  font-size: 2.3em;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .reference {
-    display: flex;
-    align-items: center;
-    float: right;
+  display: flex;
+  align-items: center;
+  float: right;
 }
 
 .reference h2 {
-    margin-left: 15px;
-    text-transform: capitalize;
-    font-size: 1.8em;
-    margin-right: 15px;
+  margin-left: 15px;
+  text-transform: capitalize;
+  font-size: 1.8em;
+  margin-right: 15px;
 }
 
 .reference img {
-    width: 40px;
+  width: 40px;
 }
 
 .footer {
-    padding: 7px 0;
-    width: 100%;
-    background-color: #1c1c1c;
+  padding: 7px 0;
+  width: 100%;
+  background-color: #1c1c1c;
 }
 
 .footer p {
-    font-size: 14px;
-    text-align: center;
-    text-transform: capitalize;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .footer p a {
-    color: white;
+  color: white;
 }
 
 @media only screen and (max-width: 767px) {
-    .container {
-        height: 900px;
-        height: 610px;
-        height: 100vh;
-        width: 100%;
-    }
+  .container {
+    height: 900px;
+    height: 610px;
+    height: 100vh;
+    width: 100%;
+  }
 
-    #navbar {
-        padding: 20px 70px;
-    }
+  #navbar {
+    padding: 20px 70px;
+  }
 
-    #content {
-        margin: auto;
-        width: 100%;
-        padding: 10px 70px;
-    }
+  #content {
+    margin: auto;
+    width: 100%;
+    padding: 10px 70px;
+  }
 
-    .name img {
-        width: 76px;
-    }
+  .name img {
+    width: 76px;
+  }
 
-    .name h2 {
-        font-size: 1.5em;
-    }
+  .name h2 {
+    font-size: 1.5em;
+  }
 
-    .reference h2 {
-        font-size: 1.5em;
-    }
-
-    
+  .reference h2 {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  #navbar {
+    padding: 20px 30px;
+  }
 
-    #navbar {
-        padding: 20px 30px
-    }
+  .search input {
+    width: 80px;
+    display: none;
+  }
 
-    .search input {
-        width: 80px;
-        display: none;
-    }
+  .search:hover input {
+    display: block;
+  }
+  .name img {
+    width: 54px;
+  }
 
-    .search:hover input {
-        display: block;
-    }
-    .name img {
-        width: 54px;
-    }
+  .name h2 {
+    font-size: 1.3em;
+  }
 
-    .name h2 {
-        font-size: 1.3em;
-    }
+  .quote h2 {
+    font-size: 1.6em;
+  }
 
-    .quote h2 {
-        font-size: 1.6em;
-    }
-
-    .reference h2 {
-        font-size: 1.3em;
-    }
+  .reference h2 {
+    font-size: 1.3em;
+  }
 }
